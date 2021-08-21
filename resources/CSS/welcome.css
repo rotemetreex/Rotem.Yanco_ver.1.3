@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.site-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-section {
+    height: 100vh;
+    background-image: url(images/StockSnap_DMYMPAX1GL.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    /* position: sticky; */
+    width: 100%;
+}
+
+.logo {
+    margin: 0.5% 1%;
+    width: 3vw;
+}
+
+.nav-ul {
+    display: flex;
+    float: right;
+    padding: 2vh 0vw;
+}
+
+.nav-link {
+    display: inline-block;
+    margin: 0 3vw;
+}
+
+.nav-icon{
+    /* height: auto; */
+    width: 1vw;
+    margin-left: 8px;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav-link a:hover {
+    color: #6495ed;
+}
+
+.links {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 30vw;
+    justify-content: space-evenly;
+    top: 50%;
+    left: 35%;
+}
+
+.links li {
+    list-style: none;
+
+}
+
+.links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    /* transition: border-bottom, 0.1s; */
+    transition: transform, 0.4s;
+    margin-bottom: 15px;
+}
+
+.link-icon-left {
+        height: auto;
+        width: 24px;
+        margin: 10px 10px 0 0;
+        padding: 0;
+}
+
+.link-icon-right {
+    height: auto;
+    width: 24px;
+    margin: 10px 0 0 5px;
+    padding: 0;
+}
+
+.links a:hover {
+    color: #6495ed;
+    /* border-bottom: 2px solid #6495ed; */
+    /* transform: translateY(-1000px); */
+}
+
+/* .links a::after {
+    transition: width 0.5s;
+    color: #6495ed;
+    border-bottom: 3px solid #6495ed;
+}
+
+.links a:hover::after {
+    width: 100%;
+} */
+
+.projects-section {
+    background-color: #008080;
+    height: 50vh;
+}
+
+.crew-section {
+    background-color: #315a5a;
+    height: 50vh;
+}
+
